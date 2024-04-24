@@ -1,0 +1,6 @@
+@StatsPerformChallengeAPI_HostAddress = http://localhost:7093
+
+GET {{StatsPerformChallengeAPI_HostAddress}}/api/leagues/
+Accept: application/json
+
+###
