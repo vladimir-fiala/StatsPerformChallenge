@@ -10,7 +10,7 @@ It is an ASP.NET Core Web API with several endpoints and XUnit testing project.
 <li>Open the solution file (StatsPerformChallenge.sln)</li>
 <li>Prepare the SAS Token (see below)</li>
 <li>Make sure the startup project is set to "StatsPerformChallengeAPI"</li>
-<li>Run the project by via the "Debug" menu > "Debug Debugging" or hitting F5</li>
+<li>Run the project via the "Debug" menu > "Debug Debugging" or hitting F5</li>
 <li>Your browser should open and the Swagger page should be displayed, where you can interact with the API</li>
 </ol>
 <h3>SAS Token preparation:</h3>
