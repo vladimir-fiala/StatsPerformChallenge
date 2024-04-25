@@ -43,6 +43,6 @@ To fully test the new API, all endpoints need to be tested, i.e.:<br>
 To list out the requirements specifically:<br>
 - Frontend must populate the League dropdown with values from GET /api/Leagues<br>
 - Frontend must populate the Brandings dropdown with values from GET /api/Brandings<br>
-- Frontend must allow the user to select a league of his choosing<br>! After a league is selected, it's ID is used to display the matches to the user (e.g. dropdown + list view/table/grid) (GET /api/Leagues/{leagueId}/unbranded-matches)<br>
+- Frontend must allow the user to select a league of his choosing<br>! After a league is selected, its ID is used to display the matches to the user (e.g. dropdown + list view/table/grid) (GET /api/Leagues/{leagueId}/unbranded-matches)<br>
 - Frontend must allow the user to select a branding of his choosing (e.g. dropdown) <br>! After a branding is selected, the match list is redrawn using new values (GET /api/Leagues/{leagueId}/branded-matches/{brandingId} )<br>
 - Frontend must allow the user to return back to the unbranded display of matches (e.g. checkbox or extra value in dropdown with additional logic)<br>
