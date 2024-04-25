@@ -1,6 +1,6 @@
 # StatsPerformChallenge<br>
 <h3>Project overview</h3>
-This project was implemented using Visual Studio 2022.
+This project was implemented using Visual Studio 2022.<br>
 It is an ASP.NET Core Web API with several endpoints and XUnit testing project.
 <hr>
 <h3>Step-by-step execution</h3>
@@ -19,14 +19,14 @@ Use the following steps to do so:<br>
 <ol>
 <li>Open your favorite command line tool and navigate to the solution folder (e.g. C:\Users\vfiala\Downloads\StatsPerformChallenge-master)</li>
 <li>Navigate to the API project directory (StatsPerformChallengeAPI)</li>
-<li>Run the following command, replacing {token-string} with the actual SAS Token: <code>dotnet user-secrets set "protectedFiles:SasToken" "{token-string}"</code></li>
-<li>NOTE: If your user-secrets has not yet been initialized, run the following command: <code>dotnet user-secrets init</code></li>
-<li>You should get a confirmation that the SasToken was successfully set. You can use the following command to verify: <code>dotnet user-secrets list</code></li>
+<li>Run the following command, replacing {token-string} with the actual SAS Token: <br><code>dotnet user-secrets set "protectedFiles:SasToken" "{token-string}"</code></li>
+<li>NOTE: If your user-secrets has not yet been initialized, run the following command: <br><code>dotnet user-secrets init</code></li>
+<li>You should get a confirmation that the SasToken was successfully set. You can use the following command to verify: <br><code>dotnet user-secrets list</code></li>
 </ol>
 If you do not set the SAS Token, the API will return Status Code 500 with message "Values could not be read", and the application console will report GET {endpoint-address} encountered an issue NotFound (Not Found)<br>
 <hr>
 <h3>SAS Token workaround:</h3>
-Alternatively, you can hardcode the token by editing the Extension method <code>public static string AppendSasToken(this string str)</code> defined in Extensions/ExtensionMethods<br>
+Alternatively, you can hardcode the token by editing the Extension method <code>public static string AppendSasToken(this string str)</code> defined in <code>Extensions/ExtensionMethods.cs</code><br>
 <br>
 
 
